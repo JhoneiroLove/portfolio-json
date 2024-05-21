@@ -1,4 +1,5 @@
 ---
+import GitHub from "@/icons/GitHub.astro"
 import Section from "@/components/Section.astro";
 
 import { projects } from "@cv";
@@ -16,7 +17,17 @@ import { projects } from "@cv";
                                 <a href={url} title={`Ver el proyecto ${name}`}> 
                                     {name}
                                 </a>
-                                {isActive && <span>&bull;</span>}
+                                {isActive && <span>•</span>}
+                                {github && (
+                                    <a
+                                        class="github-code-link"
+                                        href={github}
+                                        target="_blank"
+                                        title={`Ver código fuente del proyecto ${name}`}
+                                    >
+                                        <GitHub />
+                                    </a>
+                                    )}
                                 </h3>
                                 <p>{description}</p>
                             </header>
@@ -75,6 +86,10 @@ import { projects } from "@cv";
 
     article h3 span {
         color: rgb(0, 188, 47);
+        animation-name: flicker;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
     }
 
     footer {
@@ -92,5 +107,39 @@ import { projects } from "@cv";
         font-weight: 500;
         padding: 0.2rem 0.6rem;
     }
+
+    .github-code-link {
+    margin-left: 5px;
+  }
+
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @media (width <= 700px) {
+    ul {
+      margin-inline: 0px;
+    }
+
+    article {
+      border: none;
+      box-shadow: 0 1px 1px #f2f2f2;
+      padding: 0 0 16px 0;
+    }
+  }
+
+  @media print {
+    article h3 span {
+      animation-name: none;
+    }
+  }
 
 </style>

@@ -67,12 +67,12 @@
       }
     ],
     "volunteer": [{
-      "organization": "Organization",
+      "organization": "UPAO",
       "position": "Volunteer",
       "url": "https://upao.edu.pe/noticia/UPAO-convoca-a-estudiantes-lideres/",
       "startDate": "2023-06-9",
       "endDate": "2013-08-03",
-      "summary": "Fui voluntario en la UPAO, donde fui docente de estudiantes de ingenieria de computacion y sistemas, y fui reconocido como 'Estudiante Lider' enseñando Algoritmia y Programacion a estudiantes de primer ciclo.",
+      "summary": "Fui voluntario en la UPAO, donde fui docente de ingenieria de computacion y sistemas, y fui reconocido como 'Estudiante Lider' enseñando Algoritmia y Programacion a estudiantes de primer ciclo.",
       "highlights": [
         "Awarded 'Volunteer of the Month'"
       ]
@@ -137,7 +137,7 @@
         ]
       },
       {
-        "name": "C++",
+        "name": "CPP",
         "level": "Basico",
         "keywords": [
             "Desarrollo de algoritmos"
@@ -151,7 +151,7 @@
         ]
       },
       {
-        "name": "Spring Boot",
+        "name": "SpringBoot",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Backend", "JAVA Framework", "API RESTFUL"

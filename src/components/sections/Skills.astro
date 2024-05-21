@@ -1,34 +1,69 @@
 ---
 import Section from "@/components/Section.astro";
+import MySQL from "@/icons/sql.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import AWS from "@/icons/AWS.astro";
+import GCP from "@/icons/GCP.astro";
+import Docker from "@/icons/Docker.astro";
+import Java from "@/icons/Java.astro";
+import CPP from "@/icons/cpp.astro";
+import Python from "@/icons/Python.astro";
+import SpringBoot from "@/icons/springboot.astro";
+import Linux from "@/icons/Linux.astro";
+import Jpa from "@/icons/JPA.astro";
 
-import { skills } from "@cv"
+import { skills } from "@cv";
+
+const SKILLS_ICONS: Record<string, any> = {
+  MySQL,
+  Git,
+  GitHub,
+  AWS,
+  GCP,
+  Docker,
+  Java,
+  CPP,
+  Python,
+  SpringBoot,
+  Linux,
+  Jpa,
+};
 ---
 
 <Section title="Habilidades">
-    <ul>
-        {
-            skills.map(({ name }) => (
-                <li>
-                    <span>{name}</span>
-                </li>
-            ))
-        }
-    </ul>
+  <ul>
+    {
+      skills.map(({ name }) => {
+        const iconName = name === "JPA" ? "Jpa" : name;
+        const Icon = SKILLS_ICONS[iconName];
+
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
 
 <style>
-    ul {
-        display: inline-flex;
-        gap: 8px;
-        flex-wrap: wrap;
-    }
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
 
-    li {
-        border-radius: 6px;
-        background: #eee;
-        color: black;
-        font-size: 0.8rem;
-        font-weight: 500;
-        padding: 0.2rem 0.6rem;
-    }
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
 </style>
