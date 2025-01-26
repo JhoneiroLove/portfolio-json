@@ -73,7 +73,7 @@
       "position": "SRE & DevOps",
       "startDate": "2024-09-01",
       "endDate": "2024-09-01",
-      "summary": "Tome el cargo como cloud engineer y lidere un equipo como SRE en el despliegue de una infraestructura como codigo en AWS. Mi trabajo consistio en la creacion de una IaC que contiene: Lambdas, API Gateway, DynamoDB, S3, CloudWatch, IAM, Terraform, GitHub, CI/CD, GitHub Actions, Deployments.",
+      "summary": "Tome el cargo como cloud engineer y lidere un equipo como SRE en el despliegue de una infraestructura como codigo en AWS. Mi trabajo consistio en la creacion de una IaC que contiene: Lambdas, API Gateway, DynamoDB, S3, CloudWatch, IAM, Terraform, GitHub, CI/CD, GitHub Actions, Docker, Docker compose.",
       "highlights": ["Petsnature AWS"]
     },
     {
