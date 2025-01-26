@@ -1,83 +1,103 @@
 {
-    "basics": {
-      "name": "Jhoel Maqui Saldaña",
-      "label": "Trainee backend con experiencia en proyectos universitarios & Creador de Contenido",
-      "image": "/jhoneiro.webp",
-      "email": "jhoelitokun@gmail.com",
-      "phone": "+51 950475258",
-      "summary": "+1/2 años de experiencia como Trainee Web. Actualmente soy Creador de Contenido y desarrollador backend. Vivo en Trujillo - La libertad, Peru. He trabajado en diferentes proyectos: desde creando start-ups hasta liderando equipos de proyectos universitarios.",
-      "location": {
-        "address": "Las Garzas Covirt Mz Q LT. 16",
-        "postalCode": "13001",
-        "city": "trujillo",
-        "countryCode": "PE",
-        "region": "Peru"
-      },
-      "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "Jhoel Maqui Saldaña",
-          "url": "https://www.linkedin.com/in/jhoel-maqui-salda%C3%B1a-71b226267/"
-        },
-  
-        {
-          "network": "GitHub",
-          "username": "JhoneiroLove",
-          "url": "https://github.com/JhoneiroLove"
-        },
-        {
-          "network": "YouTube",
-          "username": "Jhoneiro",
-          "url": "https://www.youtube.com/@Jhoneiro"
-        }
-      ]
+  "basics": {
+    "name": "Jhoel Bryan Maqui Saldaña",
+    "label": "Ingeniero de software con experiencia en proyectos fullstack & Creador de Contenido",
+    "image": "/jhoneiro.webp",
+    "email": "jhoelitokun@gmail.com",
+    "phone": "+51 950475258",
+    "summary": "+2 años de experiencia como desarrollador Web. Actualmente soy Creador de Contenido e Ingeniero de software, Vivo en Trujillo - La libertad, Peru. He trabajado en diferentes proyectos: desde creando start-ups, sistemas medicos para centros de imagenes como dpi y Ricardo Palma, hasta liderando equipos en proyectos universitarios.",
+    "location": {
+      "address": "Las Garzas Covirt Mz Q LT. 16",
+      "postalCode": "13001",
+      "city": "trujillo",
+      "countryCode": "PE",
+      "region": "Peru"
     },
-    "work": [
+    "profiles": [
       {
-        "name": "JhoneiroYT",
-        "position": "Divulgador sobre Programación Web y videojuegos",
-        "url": "https://www.youtube.com/@Jhoneiro",
-        "startDate": "2015-07-24",
-        "endDate": null,
-        "summary": "Youtuber de programación y videojuegos. +2 mil seguidores en youtube. Reconocido por la UPAO por mi impacto positivo en la comunidad universitaria a través de mi labor como docente.",
-        "highlights": [
-          "Started the company"
-        ]
+        "network": "LinkedIn",
+        "username": "Jhoel Maqui Saldaña",
+        "url": "https://www.linkedin.com/in/jhoel-maqui-salda%C3%B1a-71b226267/"
+      },
+
+      {
+        "network": "GitHub",
+        "username": "JhoneiroLove",
+        "url": "https://github.com/JhoneiroLove"
       },
       {
-        "name": "Adevinta",
-        "position": "Lead Backend Architect",
-        "url": "hhttps://www.youtube.com/@Jhoneiro",
-        "startDate": "2023-07-01",
-        "endDate": null,
-        "summary": "Lidere un equipo universitario en el desarrollo de un sistema transaccional y estoy en proceso de migrar una arquitectura monolítica a otra más flexible y optimizada. Promovi buenas prácticas de desarrollo y diseño, asegurando la confiabilidad del código, implemente metodologías ágiles para fomentar la entrega rápida de un producto minimo viable a los usuarios.",
-        "highlights": [
-          "Started the company"
-        ]
-      },
-      {
-        "name": "Hubii",
-        "position": "Trainee BackEnd Developer",
-        "startDate": "2023-09-01",
-        "endDate": "2023-12-09",
-        "summary": "Desarrollé una plataforma de reciclaje con una API para consumir transacciones de puntos. Escalé los servicios con las tecnologias y librerias mas destacantes de spring boot para el desarrollo de la app. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Responsabilidad social de la UPAO para crear uns start-up para incentivar el cuidado del medio ambiente.",
-        "highlights": [
-          "Started the company"
-        ]
+        "network": "YouTube",
+        "username": "Jhoneiro",
+        "url": "https://www.youtube.com/@Jhoneiro"
       }
-    ],
-    "volunteer": [{
+    ]
+  },
+  "work": [
+    {
+      "name": "JhoneiroYT",
+      "position": "Youtuber de programación y videojuegos",
+      "url": "https://www.youtube.com/@Jhoneiro",
+      "startDate": "2015-07-24",
+      "endDate": null,
+      "summary": " +2 mil seguidores en youtube, subo videos acerca de progrmacionm web, servidores, hacking y videojuegos.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Voluntariado",
+      "position": "Docente en la UPAO",
+      "url": "https://upao.edu.pe/noticia/UPAO-convoca-a-estudiantes-lideres/",
+      "startDate": "2023-07-23",
+      "endDate": "2024-07-23",
+      "summary": "Reconocido por la UPAO por mi impacto positivo en la comunidad universitaria a través de mi labor como docente, enseñe logica y programacion.",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    },
+    {
+      "name": "Scrum Master",
+      "position": "Desarrollador Web y Product Owner",
+      "url": "hhttps://www.youtube.com/@Jhoneiro",
+      "startDate": "2023-07-01",
+      "endDate": "2024-07-01",
+      "summary": "Lidere un equipo universitario en el desarrollo de una startup y estoy en proceso de migrar una arquitectura monolítica a otra más flexible y optimizada. Promovi buenas prácticas de desarrollo y diseño, asegurando la confiabilidad del código, implemente metodologías ágiles para fomentar la entrega rápida de un producto minimo viable a los usuarios.",
+      "highlights": ["ReciclaUPAO, Petsnature, MarvelAPI"]
+    },
+    {
+      "name": "Arquitecto de Software",
+      "position": "Diseñador de Software",
+      "startDate": "2024-09-01",
+      "endDate": "2025-09-01",
+      "summary": "Tome el cargo como Arquitecto de Software y lidere un equipo scrum en el desarrollo de un sistema de gestion terapeutico. Mi trabajo consistio en la creacion de una API, Contenedores Docker para despliegue, Servidor Proxy, Servidor Nginx para gestion de archivos, Sistema de cache con redis.",
+      "highlights": ["Plenamente-Peru"]
+    },
+    {
+      "name": "Cloud Engineer",
+      "position": "SRE & DevOps",
+      "startDate": "2024-09-01",
+      "endDate": "2024-09-01",
+      "summary": "Tome el cargo como cloud engineer y lidere un equipo como SRE en el despliegue de una infraestructura como codigo en AWS. Mi trabajo consistio en la creacion de una IaC que contiene: Lambdas, API Gateway, DynamoDB, S3, CloudWatch, IAM, Terraform, GitHub, CI/CD, GitHub Actions, Deployments.",
+      "highlights": ["Petsnature AWS"]
+    },
+    {
+      "name": "Ingeniero de Software",
+      "position": "Developer full-stack",
+      "startDate": "2024-09-01",
+      "endDate": null,
+      "summary": "Actualmente estoy trabajando en una desarrolladora de soluciones medicas donde estoy con el puesto de ingeniero de software. Mi trabajo consiste en la creación de APIs, plataformas web, Reconocimiento de voz con IA, Sistemas de información radiológica (RIS), Sistemas de archivo y comunicación de imágenes (PACS), Visores pesados y ligeros (Weasis, Orthanc), Servicios de windows.",
+      "highlights": ["Intellicare-Peru"]
+    }
+  ],
+  "volunteer": [
+    {
       "organization": "UPAO",
-      "position": "Volunteer",
+      "position": "Voluntariado",
       "url": "https://upao.edu.pe/noticia/UPAO-convoca-a-estudiantes-lideres/",
       "startDate": "2023-06-9",
-      "endDate": "2013-08-03",
+      "endDate": "2024-08-03",
       "summary": "Fui voluntario en la UPAO, donde fui docente de ingenieria de computacion y sistemas, y fui reconocido como 'Estudiante Lider' enseñando Algoritmia y Programacion a estudiantes de primer ciclo.",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [{
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
       "institution": "Universidad Privada Antenor Orrego",
       "url": "https://upao.edu.pe/facultades/facultad-de-ingenieria/ing-de-computacion-y-sistemas/",
       "area": "Ingeniería de Computacion y Sistemas",
@@ -88,251 +108,244 @@
       "courses": [
         "Base de Datos, Estructura de Datos, POO, Ingenieria de Software 1 y 2, Sistemas Operativos, Redes, Interaccion hombre-maquina, Sistemas Transaccionales, Arquitectura de Software, Calidad de software, Cloud Computing, Soporte de Decisiones, Algoritmia y Programacion, Ingenieria de datos"
       ]
-    }],
-    "awards": [{
+    }
+  ],
+  "awards": [
+    {
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
-    }],
-    "certificates": [
-        {
+    }
+  ],
+  "certificates": [
+    {
       "name": "Estudiante Lider",
       "date": "2023-07-10",
       "issuer": "UPAO",
       "url": "https://static.upao.edu.pe/upload/certificados/2023/7/1833818339.pdf"
-        },
-        {
+    },
+    {
       "name": "Oracle Next Education",
       "date": "2023-10-03",
       "issuer": "Alura Latam",
       "url": "https://app.aluracursos.com/program/certificate/bc6237e3-aaff-4a27-bbf7-5e63adb9de0e"
-        },
-        {
+    },
+    {
       "name": "Oracle Cloud Infrastructure - ONE",
       "date": "2024-02-02",
       "issuer": "Alura Latam",
       "url": "https://app.aluracursos.com/degree/certificate/7bed0f6f-b914-42ed-ac6b-71a4862c07d8"
-        },
-        {
-        "name": "Java y Spring Boot",
-        "date": "2023-10-03",
-        "issuer": "Alura Latam",
-        "url": "https://app.aluracursos.com/degree/certificate/06341e4e-b227-4cb5-8084-a0975a03227c"
-        }
-    ],
-    "publications": [{
+    },
+    {
+      "name": "Java y Spring Boot",
+      "date": "2023-10-03",
+      "issuer": "Alura Latam",
+      "url": "https://app.aluracursos.com/degree/certificate/06341e4e-b227-4cb5-8084-a0975a03227c"
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": [
-      {
-        "name": "Java",
-        "level": "Intermedio-Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Backend"
-        ]
-      },
-      {
-        "name": "CPP",
-        "level": "Basico",
-        "keywords": [
-            "Desarrollo de algoritmos"
-        ]
-      },
-      {
-        "name": "Python",
-        "level": "Basico",
-        "keywords": [
-            "Desarrollo Web", "Backend"
-        ]
-      },
-      {
-        "name": "SpringBoot",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Backend", "JAVA Framework", "API RESTFUL"
-        ]
-      },
-      {
-        "name": "JPA",
-        "level": "Avanzado",
-        "keywords": [
-          "Persistencia de Datos", "ORM", "JAVA Framework", "Bases de Datos"
-        ]
-      },
-      {
-        "name": "MySQL",
-        "level": "Intermedio",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
-      {
-        "name": "Docker",
-        "level": "Intermedio",
-        "keywords": [
-          "Contenedores", "Desarrollo Backend", "CI/CD"
-        ]
-      },
-      {
-        "name": "Git",
-        "level": "Intermedio",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
-        ]
-      },
-      {
-        "name": "GitHub",
-        "level": "Intermedio",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
-        "name": "AWS",
-        "level": "Intermedio-Avanzado",
-        "keywords": [
-          "Cloud Computing", "Despliegue", "Almacenamiento", "Redes", "Seguridad"
-        ]
-      },
-      {
-        "name": "GCP",
-        "level": "Intermedio",
-        "keywords": [
-          "Cloud Computing", "Despliegue", "Almacenamiento", "Redes", "Seguridad"
-        ]
-      },
-      {
-        "name": "Linux",
-        "level": "Avanzado",
-        "keywords": [
-          "Sistema Operativo", "Desarrollo Web", "Backend"
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "Spanish",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "English",
-        "fluency": "Basic"
-      }
-    ],
-    "interests": [{
-      "name": "Blockchain",
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "Intermedio-Avanzado",
+      "keywords": ["Desarrollo Web", "Backend"]
+    },
+    {
+      "name": "CPP",
+      "level": "Basico",
+      "keywords": ["Desarrollo de algoritmos"]
+    },
+    {
+      "name": "Python",
+      "level": "Basico",
+      "keywords": ["Desarrollo Web", "Backend"]
+    },
+    {
+      "name": "SpringBoot",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JAVA Framework", "API RESTFUL"]
+    },
+    {
+      "name": "JPA",
+      "level": "Avanzado",
       "keywords": [
-        "Ethereum", 
-        " Solidity", 
-        " Smart Contracts"
+        "Persistencia de Datos",
+        "ORM",
+        "JAVA Framework",
+        "Bases de Datos"
       ]
-    }],
-    "references": [{
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermedio",
+      "keywords": ["Contenedores", "Desarrollo Backend", "CI/CD"]
+    },
+    {
+      "name": "Git",
+      "level": "Intermedio",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermedio",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermedio-Avanzado",
+      "keywords": [
+        "Cloud Computing",
+        "Despliegue",
+        "Almacenamiento",
+        "Redes",
+        "Seguridad"
+      ]
+    },
+    {
+      "name": "GCP",
+      "level": "Intermedio",
+      "keywords": [
+        "Cloud Computing",
+        "Despliegue",
+        "Almacenamiento",
+        "Redes",
+        "Seguridad"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Avanzado",
+      "keywords": ["Sistema Operativo", "Desarrollo Web", "Backend"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Blockchain",
+      "keywords": ["Ethereum", " Solidity", " Smart Contracts"]
+    }
+  ],
+  "references": [
+    {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }],
-    "projects": [
-      {
-        "name": "Sistema de reciclaje UPAO",
-        "isActive": true,
-        "description": "Plataforma de reciclaje y una API para consumir transacciones de puntos para la UPAO.",
-        "highlights": [
-          "Incentivando al reciclaje",
-          "En desarrollo",
-          "JAVA & Spring Boot"
-        ],
-        "url": "https://reciclaupao.viakuelap.com/",
-        "github": "https://github.com/JhoneiroLove/reciclaUpao"
-      },
-      {
-        "name": "MarvelAPI",
-        "isActive": false,
-        "description": "APP que consume la api de Marvel para obtener información de los personajes y cómics.",
-        "highlights": [
-          "API Marvel",
-          "JAVA & Spring Boot"
-        ],
-        "github": "https://github.com/JhoneiroLove/MarvelAPI"
-      },
-      {
-        "name": "Sistema para el cuidado de mascotas",
-        "isActive": true,
-        "description": "Plataforma web para el cuidado de mascotas.",
-        "highlights": [
-          "Cuidado de mascotas",
-          "En desarrollo",
-          "JAVA & Spring Boot"
-        ],
-        "github": "https://github.com/JhoneiroLove/petsnature"
-      },
-      {
-        "name": "Api rest para una clinica",
-        "isActive": false,
-        "description": "Api restful para un sistema clinico.",
-        "highlights": [
-          "api para sistema clinico",
-          "JAVA & Spring Boot"
-        ],
-        "github": "https://github.com/JhoneiroLove/SpringBoot-build_deploy"
-      },
-      {
-        "name": "Api rest para un foro de alura",
-        "isActive": false,
-        "description": "Mi primera api restful para un foro de alura.",
-        "highlights": [
-          "foro de alura",
-          "JAVA & Spring Boot"
-        ],
-        "github": "https://github.com/JhoneiroLove/Foro-java"
-      },
-      {
-        "name": "Aplicacion para descargar musica",
-        "isActive": false,
-        "description": "Aplicacion hecha en pyhton para descargar videos de youtube en mp3.",
-        "highlights": [
-          "descargar musica de youtube",
-          "Python3"
-        ],
-        "github": "https://github.com/JhoneiroLove/app-python-mp3"
-      },
-      {
-        "name": "Hotel Malabrigo",
-        "isActive": false,
-        "description": "web de reservas online para un hotel en malabrigo.",
-        "highlights": [
-          "reservas online",
-          "Javascript & HTML & CSS/Bootstrap"
-        ],
-        "url": "https://jhoneirolove.github.io/Hotel-Malabrigo",
-        "github": "https://github.com/JhoneiroLove/Hotel-Malabrigo"
-      },
-      {
-        "name": "Pagina web para una granja urbana",
-        "isActive": false,
-        "description": "Pagina web para una granja urbana en Trujillo.",
-        "highlights": [
-          "Granja Urbana",
-          "Verduras y hortalizas frescas",
-          "Javascript & HTML & CSS/Bootstrap"
-        ],
-        "url": "https://jhoneirolove.github.io/granja-urbana",
-        "github": "https://github.com/JhoneiroLove/granja-urbana"
-      },
-      {
-        "name": "Reto Oracle Next",
-        "isActive": false,
-        "description": "Pagina que encripta y desencripta mensajes.",
-        "highlights": [
-          "Encriptar y desencriptar mensajes",
-          "Javascript & HTML & CSS/Bootstrap"
-        ],
-        "url": "https://jhoneirolove.github.io/Challenge-Oracle-Next/",
-        "github": "https://github.com/JhoneiroLove/Challenge-Oracle-Next"
-      }
-    ]
-  }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sistema de reciclaje UPAO",
+      "isActive": true,
+      "description": "Plataforma de reciclaje y una API para consumir transacciones de puntos para la UPAO.",
+      "highlights": [
+        "Incentivando al reciclaje",
+        "Google Cloud",
+        "JAVA & Spring Boot"
+      ],
+      "url": "https://reciclaupao.viakuelap.com/",
+      "github": "https://github.com/JhoneiroLove/recicla_upao_nube"
+    },
+    {
+      "name": "MarvelAPI",
+      "isActive": false,
+      "description": "APP que consume la api de Marvel para obtener información de los personajes y cómics.",
+      "highlights": ["API Marvel", "JAVA & Spring Boot"],
+      "github": "https://github.com/JhoneiroLove/MarvelAPI"
+    },
+    {
+      "name": "Sistema para el cuidado de mascotas",
+      "isActive": false,
+      "description": "Plataforma web para el cuidado de mascotas.",
+      "highlights": [
+        "Cuidado de mascotas",
+        "Microservicio",
+        "JAVA & Spring Boot"
+      ],
+      "github": "https://github.com/JhoneiroLove/microservicio_springboot/tree/main/Microservicio-Conexion-Back-main"
+    },
+    {
+      "name": "IaC para un microservicio",
+      "isActive": false,
+      "description": "Terraform para desplegar un microservicio serverless.",
+      "highlights": ["Lambda", "Terraform", "Javascript"],
+      "github": "https://github.com/JhoneiroLove/first-microservice/tree/main/iac"
+    },
+    {
+      "name": "Sistema de seguridad IoT",
+      "isActive": false,
+      "description": "Mi primera aplicacion movil en kotiln para un sistema de seguridad iot.",
+      "highlights": ["esp32", "kotiln", "xml"],
+      "github": "https://github.com/JhoneiroLove/iot_house_security"
+    },
+    {
+      "name": "Aplicacion para descargar musica",
+      "isActive": false,
+      "description": "Aplicacion hecha en pyhton para descargar videos de youtube en mp3.",
+      "highlights": ["descargar musica de youtube", "Python3"],
+      "github": "https://github.com/JhoneiroLove/app-python-mp3"
+    },
+    {
+      "name": "Hotel Malabrigo",
+      "isActive": false,
+      "description": "web de reservas online para un hotel en malabrigo.",
+      "highlights": ["reservas online", "Javascript & HTML & CSS/Bootstrap"],
+      "url": "https://jhoneirolove.github.io/Hotel-Malabrigo",
+      "github": "https://github.com/JhoneiroLove/Hotel-Malabrigo"
+    },
+    {
+      "name": "Pagina web para una granja urbana",
+      "isActive": false,
+      "description": "Pagina web para una granja urbana en Trujillo.",
+      "highlights": [
+        "Granja Urbana",
+        "Verduras y hortalizas frescas",
+        "Javascript & HTML & CSS/Bootstrap"
+      ],
+      "url": "https://jhoneirolove.github.io/granja-urbana",
+      "github": "https://github.com/JhoneiroLove/granja-urbana"
+    },
+    {
+      "name": "Reto Oracle Next",
+      "isActive": false,
+      "description": "Pagina que encripta y desencripta mensajes.",
+      "highlights": [
+        "Encriptar y desencriptar mensajes",
+        "Javascript & HTML & CSS/Bootstrap"
+      ],
+      "url": "https://jhoneirolove.github.io/Challenge-Oracle-Next/",
+      "github": "https://github.com/JhoneiroLove/Challenge-Oracle-Next"
+    }
+  ]
+}
